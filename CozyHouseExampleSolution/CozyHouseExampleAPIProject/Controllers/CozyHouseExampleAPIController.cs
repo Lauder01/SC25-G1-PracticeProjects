@@ -10,8 +10,8 @@ namespace CozyHouseExampleAPIProject.Controllers
     [ApiController]
     public class CozyHouseExampleAPIController : ControllerBase
     {
-        //Get hola mundo
-        [HttpGet("hello")]
+        //Get CozyHouseExample
+        [HttpGet("CozyHouseExample")]
         public IActionResult GetHelloWorld()
         {
             // Forma 1: Constructor por defecto y asignación de propiedades
