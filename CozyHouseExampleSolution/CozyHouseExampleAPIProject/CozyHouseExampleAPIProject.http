@@ -1,0 +1,6 @@
+@CozyHouseExampleAPIProject_HostAddress = http://localhost:5031
+
+GET {{CozyHouseExampleAPIProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

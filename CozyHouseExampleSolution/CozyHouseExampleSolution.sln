@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozyHouseExampleProject", "CozyHouseExampleProject\CozyHouseExampleProject.csproj", "{9CF9C06A-BFE8-47C4-98E8-72C200F6A062}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozyHouseExampleLibrary", "CozyHouseExampleLibrary\CozyHouseExampleLibrary.csproj", "{00B1ECE5-24FE-4939-AA95-0AEAAA493EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozyHouseExampleAPIProject", "CozyHouseExampleAPIProject\CozyHouseExampleAPIProject.csproj", "{B438E872-654B-49D1-95AC-9EAB6606C326}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{00B1ECE5-24FE-4939-AA95-0AEAAA493EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B1ECE5-24FE-4939-AA95-0AEAAA493EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B1ECE5-24FE-4939-AA95-0AEAAA493EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B438E872-654B-49D1-95AC-9EAB6606C326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B438E872-654B-49D1-95AC-9EAB6606C326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B438E872-654B-49D1-95AC-9EAB6606C326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B438E872-654B-49D1-95AC-9EAB6606C326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
