@@ -7,6 +7,10 @@ namespace CozyHouseExampleLibrary
         public int ClientId { get; set; }
         public int ApartmentId { get; set; }
 
+        // Default constructor
+        public Contract() { }
+
+        // Full parameter constructor
         public Contract(int id, string description, int clientId, int apartmentId)
         {
             Id = id;
@@ -21,6 +25,11 @@ namespace CozyHouseExampleLibrary
                 client.Contracts.Add(this);
             if (!client.Apartments.Contains(apartment))
                 client.Apartments.Add(apartment);
+        }
+
+        public override string ToString()
+        {
+            return $"Contract: {Id}, Description: {Description}, ClientId: {ClientId}, ApartmentId: {ApartmentId}";
         }
     }
 }
